@@ -5,13 +5,13 @@ double CNormResiduals::mlogDensity(double){
 return 1.0;
 }
 
-std::vector<double> CNormResiduals::mgradlogDensity(CRegArchData){
+cGSLVector CNormResiduals::mgradlogDensity(CRegArchData){
 //TODO
-std::vector<double> reda;
+cGSLVector reda;
 return reda;
 }
-std::vector<double> CNormResiduals::mSimul(int){
+cGSLVector CNormResiduals::mSimul(int){
 //TODO
-std::vector<double> reda;
+cGSLVector reda;
 return reda;
 }

@@ -8,8 +8,9 @@ return 0.0;
 
 
 
-std::vector<double> CCondMean::mComputeGrad(CRegArchData mdata,int t){
+cGSLVector CCondMean::mComputeGrad(CRegArchData mdata,int t)
+{
 //TODO
-std::vector<double> reda; 
-return reda;
+cGSLVector ly; 
+return ly;
 }
