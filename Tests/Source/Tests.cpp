@@ -27,6 +27,7 @@ int _tmain(int argc, _TCHAR* argv[])
 int main(int argc, char* argv[])
 #endif //WIN32
 {
+    
 	unsigned int i;
 
 	cGSLVector vec(3), res_produit_vec(0);
