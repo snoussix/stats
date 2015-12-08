@@ -6,7 +6,7 @@
 
 class CConstM: public CAbstCondMean{
 double constante;
-CAbsCondMean(double constante);
+CConstM(double constante,cGSLVector mParams);
 virtual double mComputeMean(CRegArchData mData, int t);
 virtual cGSLVector mComputeGrad(CRegArchData mData, int t);
 

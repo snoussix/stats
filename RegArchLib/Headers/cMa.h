@@ -11,6 +11,7 @@
 
 
 class CMa: public CAbstCondMean{
+    CMa(cGSLVector mParams);
 virtual double mComputeMean(CRegArchData mData, int t);
 virtual cGSLVector mComputeGrad(CRegArchData mData, int t);
 };
