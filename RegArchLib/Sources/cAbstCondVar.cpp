@@ -1,4 +1,4 @@
-#include "cAbstCondVar.hpp"
+#include "cAbstCondVar.h"
 
 
 CAbstCondVar::CAbstCondVar(cGSLVector param) {

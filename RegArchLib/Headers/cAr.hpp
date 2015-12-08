@@ -1,7 +1,7 @@
 #ifndef _CAR_
 #define _CAR_
 #include "cAbstCondMean.hpp"
-#include <gsl/gsl_math.h>
+
 
 
 class CAr: public CAbstCondMean{

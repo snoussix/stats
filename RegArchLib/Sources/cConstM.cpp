@@ -1,5 +1,7 @@
 #include "cConstM.hpp"
 
+
+
 double CConstM::mComputeMean(CRegArchData mData, int t){
 //TODO
 return 1.0;

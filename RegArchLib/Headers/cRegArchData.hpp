@@ -2,8 +2,6 @@
 #define _CREGARCHDATA_
 
 
-#include <gsl/gsl_math.h>
-
 #include "cAr.hpp"
 #include <vector>
 #include <gsl/gsl_math.h>
