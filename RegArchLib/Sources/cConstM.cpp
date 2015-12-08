@@ -2,6 +2,10 @@
 
 
 
+
+CConstM::CConstM(double constante,cGSLVector mParams):CAbstCondMean(mParams){
+    this->constante = constante;
+}
 double CConstM::mComputeMean(CRegArchData mData, int t){
 //TODO
 return 1.0;
