@@ -13,7 +13,7 @@
 class CMa: public CAbstCondMean{
 
 virtual double mComputeMean(CRegArchData mData, int t);
-virtual std::vector<double> mComputeGrad(CRegArchData mData, int t);
+virtual cGSLVector mComputeGrad(CRegArchData mData, int t);
 };
 
 

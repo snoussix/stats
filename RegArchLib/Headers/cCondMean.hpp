@@ -7,7 +7,7 @@
 class CCondMean {
 std::vector<CAbstCondMean *> mMean;
 double mComputeMean(CRegArchData mdata, int t);
-std::vector<double> mComputeGrad(CRegArchData mdata, int t);
+cGSLVector mComputeGrad(CRegArchData mdata, int t);
 
 
 

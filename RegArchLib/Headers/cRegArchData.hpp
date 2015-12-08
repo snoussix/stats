@@ -5,11 +5,11 @@
 
 
 class CRegArchData {
-std::vector<double> mYt;
-std::vector<double> mHt;
-std::vector<double> mUt;
-std::vector<double> mEt;
-std::vector<double> mXt;
+cGSLVector mYt;
+cGSLVector mHt;
+cGSLVector mUt;
+cGSLVector mEt;
+cGSLVector mXt;
 
 
 };

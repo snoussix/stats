@@ -11,9 +11,9 @@
 #include <vector>
 #include "cRegArchData.hpp" 
 class CAbstCondVar {
-std::vector<double> mParams;
+cGSLVector mParams;
 virtual double mComputeVar(CRegArchData mData, int t)=0;
-virtual std::vector<double> mComputeGrad(CRegArchData mData, int t)=0;
+virtual cGSLVector mComputeGrad(CRegArchData mData, int t)=0;
 };
 
 

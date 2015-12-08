@@ -3,10 +3,10 @@
 #include <vector>
 #include "cRegArchData.hpp" 
 class CAbstCondMean {
-std::vector<double> mParams;
- CAbstCondMean(std::vector<double> mParams);
+cGSLVector mParams;
+ CAbstCondMean(cGSLVector mParams);
 virtual double mComputeMean(CRegArchData mData, int t)=0;
-virtual std::vector<double> mComputeGrad(CRegArchData mData, int t)=0;
+virtual cGSLVector mComputeGrad(CRegArchData mData, int t)=0;
 };
 
 

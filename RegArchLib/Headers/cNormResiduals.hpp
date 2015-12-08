@@ -5,9 +5,9 @@
 
 class CNormResiduals: public CResiduals{
 
-virtual std::vector<double> mSimul(int);
+virtual cGSLVector mSimul(int);
 virtual double mlogDensity(double);
-virtual std::vector<double> mgradlogDensity(CRegArchData);
+virtual cGSLVector mgradlogDensity(CRegArchData);
 
 };
 
