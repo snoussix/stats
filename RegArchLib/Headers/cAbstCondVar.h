@@ -10,7 +10,7 @@
 
 #include "cRegArchData.hpp" 
 #include "StdAfxVectorAndMatrix.h"
-using VectorAndMatrixNameSpace;
+using namespace VectorAndMatrixNameSpace;
 
 class CAbstCondVar {
 cGSLVector mParams;
