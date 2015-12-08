@@ -11,6 +11,7 @@
 
 
 class CArch: public CAbstCondVar{
+    CArch(cGSLVector mParams);
 virtual double mComputeVar(CRegArchData mData, int t);
 virtual cGSLVector mComputeGrad(CRegArchData mData, int t);
 };
