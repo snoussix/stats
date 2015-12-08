@@ -1,8 +1,8 @@
 #ifndef _CCONSTM_
 #define _CCONSTM_
 #include "cAbstCondMean.hpp"
-#include <gsl/gsl_math.h>
-
+#include "StdAfxVectorAndMatrix.h"
+using VectorAndMatrixNameSpace;
 
 class CConstM: public CAbstCondMean{
 double constante;

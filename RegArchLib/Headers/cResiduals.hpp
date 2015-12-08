@@ -1,8 +1,11 @@
 #ifndef _CRESIDUALS_
 #define _CRESIDUALS_
+
 #include <vector>
 #include "cRegArchData.hpp"
-#include "cGSLVector.h"
+#include "StdAfxVectorAndMatrix.h"
+using VectorAndMatrixNameSpace;
+
 
 class CResiduals{
 cGSLVector mparams;

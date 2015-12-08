@@ -1,9 +1,11 @@
 #ifndef _CABSTCONDMEAN_
 #define _CABSTCONDMEAN_
-#include <vector>
+
 #include "cRegArchData.hpp" 
 #include "StdAfxVectorAndMatrix.h"
-using VectorAndMatrixNameSpace;
+using namespace VectorAndMatrixNameSpace;
+
+
 class CAbstCondMean {
     
 cGSLVector mParams;

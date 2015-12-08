@@ -8,8 +8,10 @@
 #ifndef CABSTCONDVAR_H
 #define	CABSTCONDVAR_H
 
-#include <vector>
 #include "cRegArchData.hpp" 
+#include "StdAfxVectorAndMatrix.h"
+using VectorAndMatrixNameSpace;
+
 class CAbstCondVar {
 cGSLVector mParams;
 CAbstCondVar(cGSLVector mParams);

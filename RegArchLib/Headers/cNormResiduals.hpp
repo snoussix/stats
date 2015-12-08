@@ -1,8 +1,10 @@
 #ifndef _CNORMRESIDUALS_
 #define _CNORMRESIDUALS_
 
-#include <gsl/gsl_math.h>
 #include "cResiduals.hpp"
+#include "StdAfxVectorAndMatrix.h"
+using VectorAndMatrixNameSpace;
+
 
 class CNormResiduals: public CResiduals{
 

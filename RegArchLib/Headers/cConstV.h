@@ -8,7 +8,8 @@
 #ifndef CCONSTV_H
 #define	CCONSTV_H
 #include "cAbstCondVar.h"
-
+#include "StdAfxVectorAndMatrix.h"
+using VectorAndMatrixNameSpace;
 
 class CConstV: public CAbstCondVar{
 double constante;

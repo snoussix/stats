@@ -10,6 +10,9 @@
 #include <vector>
 #include "cAbstCondVar.h"
 #include "cRegArchData.hpp"
+#include "StdAfxVectorAndMatrix.h"
+using VectorAndMatrixNameSpace;
+
 
 class CCondVar {
 std::vector<CAbstCondVar *> mMean;

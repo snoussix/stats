@@ -9,6 +9,8 @@
 #define	CGARCH_H
 #include "cAbstCondVar.h"
 
+#include "StdAfxVectorAndMatrix.h"
+using VectorAndMatrixNameSpace;
 
 class CGarch: public CAbstCondVar{
     CGarch(cGSLVector mParams));

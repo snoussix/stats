@@ -1,9 +1,12 @@
 #ifndef _CCONDMEAN_
 #define _CCONDMEAN_
 #include <vector>
-#include "cGSLVector.h"
 #include "cAbstCondMean.hpp"
 #include "cRegArchData.hpp"
+#include "StdAfxVectorAndMatrix.h"
+using VectorAndMatrixNameSpace;
+
+
 
 class CCondMean {
 std::vector<CAbstCondMean *> mMean;

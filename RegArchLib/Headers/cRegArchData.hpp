@@ -2,9 +2,8 @@
 #define _CREGARCHDATA_
 
 
-#include "cAr.hpp"
-#include <vector>
-#include <gsl/gsl_math.h>
+#include "StdAfxVectorAndMatrix.h"
+using namespace VectorAndMatrixNameSpace;
 
 
 class CRegArchData {

@@ -8,7 +8,8 @@
 #ifndef CMA_H
 #define	CMA_H
 #include "cAbstCondMean.hpp"
-
+#include "StdAfxVectorAndMatrix.h"
+using VectorAndMatrixNameSpace;
 
 class CMa: public CAbstCondMean{
     CMa(cGSLVector mParams);
