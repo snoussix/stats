@@ -12,6 +12,7 @@ class CRegArchModel{
 CCondMean *mCondMean;
 CCondVar *mCondVar;
 CResiduals *mResiduals;
+public:
 CRegArchModel(CCondMean *mCondMean,CCondVar *mCondVar,CResiduals *mResiduals);
 };
 

@@ -10,6 +10,7 @@ using namespace VectorAndMatrixNameSpace;
 
 class CCondMean {
 std::vector<CAbstCondMean *> mMean;
+public:
  CCondMean(std::vector<CAbstCondMean *> mMean);
 double mComputeMean(CRegArchData mdata, int t);
 cGSLVector mComputeGrad(CRegArchData mdata, int t);

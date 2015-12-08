@@ -1,6 +1,6 @@
 #include "cRegArchModel.hpp"
 #include "StdAfxVectorAndMatrix.h"
-using VectorAndMatrixNameSpace;
+using namespace VectorAndMatrixNameSpace;
         
 int main(int argc, char* argv[]){
     CCondMean *mCondMean;
@@ -15,8 +15,8 @@ int main(int argc, char* argv[]){
     
     
     
-    mCondMean= new CCondMean(mMean,mParams);
-    mCondVar = new CCondVar(mVar,mParamsVar);
+    mCondMean= new CCondMean(mMean);
+    mCondVar = new CCondVar(mVar);
     
     
     
