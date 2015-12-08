@@ -2,6 +2,8 @@
 #define _CABSTCONDMEAN_
 #include <vector>
 #include "cRegArchData.hpp" 
+#include <gsl/gsl_math.h>
+
 class CAbstCondMean {
 cGSLVector mParams;
  CAbstCondMean(cGSLVector mParams);

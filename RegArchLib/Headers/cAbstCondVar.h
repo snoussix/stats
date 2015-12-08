@@ -12,6 +12,8 @@
 #include "cRegArchData.hpp" 
 class CAbstCondVar {
 cGSLVector mParams;
+CAbstCondVar(cGSLVector mParams);
+
 virtual double mComputeVar(CRegArchData mData, int t)=0;
 virtual cGSLVector mComputeGrad(CRegArchData mData, int t)=0;
 };

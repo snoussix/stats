@@ -9,7 +9,7 @@
 
 
 
-CAbstCondMean::CAbstCondMean(std::vector<double> param) {
+CAbstCondMean::CAbstCondMean(cGSLVector param) {
     this->mParams=param;
 }
 

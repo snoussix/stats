@@ -13,6 +13,7 @@
 
 class CCondVar {
 std::vector<CAbstCondVar *> mMean;
+CCondVar(std::vector<CAbstCondVar *> mMean,cGSLVector mParams);
 double mComputeVar(CRegArchData mdata, int t);
 cGSLVector mComputeGrad(CRegArchData mdata, int t);
 
