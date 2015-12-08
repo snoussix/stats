@@ -3,8 +3,8 @@
 
 
 
-CCondVar::CCondVar(std::vector<CAbstCondVar *> mVar,cGSLVector mParams):CAbstCondVar(mParams){
-    this->mMean=mMean;
+CCondVar::CCondVar(std::vector<CAbstCondVar *> mVar){
+    this->mVar=mVar;
 }
         
 double CCondVar::mComputeVar(CRegArchData mData, int t){

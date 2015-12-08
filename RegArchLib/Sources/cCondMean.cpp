@@ -3,8 +3,8 @@
 
 
 
-CCondMean::CCondMean(std::vector<CAbstCondMean *> mMean,cGSLVector mParams):CAbstCondMean(mParams){
-    this->mMean=mMean;
+CCondMean::CCondMean(std::vector<CAbstCondMean *> mMean):mMean(mMean){
+
 }
 double CCondMean::mComputeMean(CRegArchData mdata,int t){
 //TODO 

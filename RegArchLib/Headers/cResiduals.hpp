@@ -4,11 +4,12 @@
 #include <vector>
 #include "cRegArchData.hpp"
 #include "StdAfxVectorAndMatrix.h"
-using VectorAndMatrixNameSpace;
+using namespace VectorAndMatrixNameSpace;
 
 
 class CResiduals{
 cGSLVector mparams;
+public:
  CResiduals(cGSLVector mparams);
 virtual cGSLVector mSimul(int)=0;
 virtual double mlogDensity(double)=0;

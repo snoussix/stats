@@ -14,6 +14,7 @@ using namespace VectorAndMatrixNameSpace;
 
 class CAbstCondVar {
 cGSLVector mParams;
+public:
 CAbstCondVar(cGSLVector mParams);
 
 virtual double mComputeVar(CRegArchData mData, int t)=0;

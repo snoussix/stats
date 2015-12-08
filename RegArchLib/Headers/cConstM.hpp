@@ -2,7 +2,7 @@
 #define _CCONSTM_
 #include "cAbstCondMean.hpp"
 #include "StdAfxVectorAndMatrix.h"
-using VectorAndMatrixNameSpace;
+using namespace VectorAndMatrixNameSpace;
 
 class CConstM: public CAbstCondMean{
 double constante;

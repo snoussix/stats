@@ -11,7 +11,7 @@ double CMa::mComputeMean(CRegArchData mData, int t){
 //TODO
 return 1.0;
 }
-cGSLVector CAr::mComputeGrad(CRegArchData mData, int t){
+cGSLVector CMa::mComputeGrad(CRegArchData mData, int t){
 //TODO
 cGSLVector reda;
 return reda;
