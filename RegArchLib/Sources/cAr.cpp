@@ -3,7 +3,6 @@
 
 CAr::CAr(cGSLVector mParams): CAbstCondMean(mParams){
    
-    
 }
 
 double CAr::mComputeMean(CRegArchData mData, int t){
