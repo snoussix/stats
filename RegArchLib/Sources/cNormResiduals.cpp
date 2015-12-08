@@ -1,5 +1,10 @@
 #include "cNormResiduals.hpp"
 
+
+CNormResiduals::CNormResiduals(cGSLVector mparams):CResiduals(mparams){
+  
+}
+  
 double CNormResiduals::mlogDensity(double){
 //TODO
 return 1.0;

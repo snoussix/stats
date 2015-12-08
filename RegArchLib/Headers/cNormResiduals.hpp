@@ -7,7 +7,7 @@ using VectorAndMatrixNameSpace;
 
 
 class CNormResiduals: public CResiduals{
-
+     CNormResiduals(cGSLVector mparams);
 virtual cGSLVector mSimul(int);
 virtual double mlogDensity(double);
 virtual cGSLVector mgradlogDensity(CRegArchData);
