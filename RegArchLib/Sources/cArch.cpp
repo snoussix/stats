@@ -1,4 +1,4 @@
-#include "cArch.hpp"
+#include "cArch.h"
 
 
 CArch::CArch(cGSLVector mParams): CAbstCondVar(mParams){

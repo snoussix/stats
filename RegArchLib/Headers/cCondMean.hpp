@@ -4,13 +4,13 @@
 #include "cAbstCondMean.hpp"
 #include "cRegArchData.hpp"
 #include "StdAfxVectorAndMatrix.h"
-using VectorAndMatrixNameSpace;
+using namespace VectorAndMatrixNameSpace;
 
 
 
 class CCondMean {
 std::vector<CAbstCondMean *> mMean;
- CCondMean(std::vector<CAbstCondMean *> mMean,cGSLVector mParams);
+ CCondMean(std::vector<CAbstCondMean *> mMean);
 double mComputeMean(CRegArchData mdata, int t);
 cGSLVector mComputeGrad(CRegArchData mdata, int t);
 

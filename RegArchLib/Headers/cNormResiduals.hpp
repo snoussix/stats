@@ -3,7 +3,7 @@
 
 #include "cResiduals.hpp"
 #include "StdAfxVectorAndMatrix.h"
-using VectorAndMatrixNameSpace;
+using namespace VectorAndMatrixNameSpace;
 
 
 class CNormResiduals: public CResiduals{

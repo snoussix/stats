@@ -9,7 +9,7 @@
 #define	CARCH_H
 #include "cAbstCondVar.h"
 #include "StdAfxVectorAndMatrix.h"
-using VectorAndMatrixNameSpace;
+using namespace VectorAndMatrixNameSpace;
 
 class CArch: public CAbstCondVar{
     CArch(cGSLVector mParams);

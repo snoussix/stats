@@ -10,7 +10,7 @@
 #include "cAbstCondVar.h"
 
 #include "StdAfxVectorAndMatrix.h"
-using VectorAndMatrixNameSpace;
+using namespace VectorAndMatrixNameSpace;
 
 class CGarch: public CAbstCondVar{
     CGarch(cGSLVector mParams);
