@@ -1,13 +1,19 @@
 #include "cAr.hpp"
 
 
+CAr::CAr(cGSLVector mParams): CAbstCondMean(mParams){
+   
+    
+}
 
 double CAr::mComputeMean(CRegArchData mData, int t){
+    
+    
 //TODO
 return 1.0;
 }
-std::vector<double> CAr::mComputeGrad(CRegArchData mData, int t){
+cGSLVector CAr::mComputeGrad(CRegArchData mData, int t){
 //TODO
-std::vector<double> reda;
+cGSLVector reda;
 return reda;
 }
