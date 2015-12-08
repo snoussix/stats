@@ -14,6 +14,6 @@ cGSLVector mUt;
 cGSLVector mEt;
 cGSLVector mXt;
 
-CReArchData(cGSLVector mYt,cGSLVector mHt,cGSLVector mUt,cGSLVector mEt,cGSLVector mXt);
+CRegArchData(cGSLVector mYt,cGSLVector mHt,cGSLVector mUt,cGSLVector mEt,cGSLVector mXt);
 };
 #endif
